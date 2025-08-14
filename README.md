@@ -1,1 +1,1 @@
-# github-oidc-terraform-aws
+# checkpoint demo
