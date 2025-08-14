@@ -16,5 +16,5 @@ resource "aws_ssm_parameter" "second" {
 
 module "ecrRepo" {
   source = "./modules/ecr"
-  ecr_repo_name = locals.ecr_repo_name
+  ecr_repo_name = local.ecr_repo_name
 }
